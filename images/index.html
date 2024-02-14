@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  </head>
+  <body style="background-image: url('istockphoto-1272795679-612x612.jpg');">
+    <div class="hero">
+      <nav>
+        <img src="shivansh-high-resolution-logo-color-on-transparent-background.png" class="logo">
+        <ul>
+          <li>
+            <a href="#">HOME</a>
+          </li>
+          <li>
+            <a href="#projects">PROJECTS</a>
+          </li>
+          <li>
+            <a href="#skill">SKILLS</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="details">
+        <img src="my.jpg" style="width: 180px; height: 180px !important;">
+        
+        <h1> I'm Shivansh <span>Bohra</span>
+        </h1>
+        <b><p>I am Shivansh Bohra from Narnaul. I am skilled and trained <span style="color: blue;">Full Stack Software Developer</span> with a certification from StackRoute NIIT. I'm also a qualified Mechanical Engineer and a passion for technology. My technical skills include Java, HTML, CSS, and JavaScript, along with frameworks like Spring Boot, Angular, and Bootstrap. I'm experienced in working with databases such as MySQL, MongoDB, and H2. I'm a quick learner, adaptable, and possess strong problem-solving abilities. In my projects, I developed the MUZIX and Pizza applications, and I also worked on the Jukebox application. I have excellent communication skills, work well in teams, and pay attention to detail. I'm excited to contribute my skills and continue growing as a software engineer.</p></b>
+        <a href="Shivansh_CV.pdf">DOWNLOAD CV</a>
+      </div>
+      
+    </div>
+    <div id="projects" class="projects-section" style="padding-bottom: 70px; padding-top: 10px;">
+      <h2 class="projects-heading">PROJECTS </h2>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="muzix.png">
+        <h3>Project 1</h3>
+<p> In a team of three, we developed Muzix Application, a dynamic movie website 
+  with the latest releases, payment integration, and user registration. We used APIs and web scraping 
+  for movie data retrieval. The site includes subscription plans, multiple user accounts, trailer 
+  playback, and search functionality. Technologies used: TmdbApi, Angular, MongoDB, MySQL, Spring 
+  Boot, Java, HTML, CSS, JS, TS, and POSTMAN for API testing</p>
+      </div>
+      <div class="grid-item">
+        <img src="pizza.png">
+        <h3>Project 2</h3>
+        <p> Created a pizza application utilizing Angular for the frontend and Restful APIs for 
+          the backend. The application features search, add-to-cart, delete pizza, and user authentication 
+          functionality, including login, logout, and signup forms. Implemented routing and guarding for 
+          secure access</p>
+      </div>
+      <div class="grid-item">
+        <img src="jukebox-3.jpg">
+        <h3>Project 3</h3>
+        <p> developed a Java project with user authentication, custom playlists, and 
+          advanced search using Java and MySQL. Users can create, modify, and delete playlists, as well as 
+          search for songs based on their preferences. It's a feature-rich project enabling personalized playlist 
+          management and customization options.
+          </p>
+      </div>
+    </div>
+    </div>
+    <div id="skill" class="skill-section" style="margin-top: -20px; margin-bottom: -20px; ;">
+      <div class="heading-box">
+        <h3 class="skills-heading">Skills</h3>
+        </div>
+    
+        <div class="skill">
+          <div class="progress">
+            <div class="progress-bar java" style="width: 90%">
+              <p>Java</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <div class="progress">
+            <div class="progress-bar html" style="width: 85%">
+              <p>HTML</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <div class="progress">
+            <div class="progress-bar css" style="width: 80%">
+              <p>CSS</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <div class="progress">
+            <div class="progress-bar javascript" style="width: 85%">
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <div class="progress">
+            <div class="progress-bar bootstrap" style="width: 80%">
+              <p>Bootstrap</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <div class="progress">
+            <div class="progress-bar angular" style="width: 75%">
+              <p>Angular</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <div class="progress">
+            <div class="progress-bar spring-boot" style="width: 85%">
+              <p>Spring Boot</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <div class="progress">
+            <div class="progress-bar mysql" style="width: 90%">
+              <p>MySQL</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <div class="progress">
+            <div class="progress-bar mongodb" style="width: 80%">
+              <p>MongoDB</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <section id="contact" style="margin-bottom: -200px; margin-top: 0;">
+  
+      <h1 class="section-header">Contact</h1>
+      
+      <div class="contact-wrapper">
+      
+      <!-- Left contact page --> 
+        
+        <form onsubmit="sendEmail(); return false;"  id="contact-form" class="form-horizontal" role="form" >
+           
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+            </div>
+          </div>
+    
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+            </div>
+          </div>
+    
+          <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+          
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+            </div>
+          
+          </button>
+          
+        </form>
+        
+      <!-- Left contact page --> 
+        
+          <div class="direct-contact-container">
+    
+            <ul class="contact-list">
+              <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Narnaul, Haryana</span></i></li>
+              
+              <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">+91 8708075090</a></span></i></li>
+              
+              <li class="list-item"><i class="fa fa-envelope fa-2x gmail-icon"><span class="contact-text gmail"><a href="mailto:shivanshbohra.ad03@gmail.com" title="Send me an email">shivanshbohra.ad03@gmail.com</a></span></i></li>
+              
+            </ul>
+    
+            <hr>
+            <span class="social-media-list">
+              <span class="social"><a href="https://www.linkedin.com/in/shivansh-bohra-641278143/"> <i class="fa fa-linkedin"></i></a></span>
+              <span class="social" id="git"><a href="https://github.com/ShivanshBohra"><i class="fa fa-github"></i></a></span>
+              <span class="social" id="inst"><a href="https://www.instagram.com/shivansh.bohra_/"><i class="fa fa-instagram"></i></a></span>
+            </span>
+            <hr>
+    
+            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+    
+          </div>
+        
+      </div>
+      
+    </section>  
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        const templateParams = {
+          from_name: document.getElementById("name").value,
+          from_email: document.getElementById("email").value,
+          message: document.getElementsByName("message")[0].value,
+        };
+    
+        emailjs.send('service_bfdy55c', 'template_2zz95rl', templateParams, 'GmM87JqKp37hFHs-x')
+          .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+            Swal.fire({
+              icon: 'success',
+              title: 'Success',
+              text: 'Message sent successfully!',
+            });
+            document.getElementById("contact-form").reset();
+          }, function(error) {
+            console.log('FAILED...', error);
+            Swal.fire({
+              icon: 'error',
+              title: 'Error',
+              text: 'Failed to send message. Please try again later.',
+            });
+          });
+      }
+    </script>
+    
+  </body>
+</html> 
